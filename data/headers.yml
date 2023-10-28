@@ -2,21 +2,17 @@
   icon: fa fa-home
   link: "./"
 
-- item: 作者
-  icon: fab fa-hive
-  link: https://www.yuque.com/shenweiyan
-
 - item: 博客
   icon: fa fa-book
-  link: https://www.shumlab.com
+  link: https://www.monlor.com
 
-- item: 关于
-  icon: fa fa-cog
-  link: ""
-  list:
-    - name: 教程
-      url: "https://www.yuque.com/shenweiyan/cookbook/webstack-hugo"
-    - name: 主题
-      url: "https://github.com/shenweiyan/WebStack-Hugo"
-    - name: 源码
-      url: https://github.com/shenweiyan/NavBioIT
+# - item: 关于
+#   icon: fa fa-cog
+#   link: ""
+#   list:
+#     - name: 教程
+#       url: "https://www.yuque.com/shenweiyan/cookbook/webstack-hugo"
+#     - name: 主题
+#       url: "https://github.com/shenweiyan/WebStack-Hugo"
+#     - name: 源码
+#       url: https://github.com/shenweiyan/NavBioIT
