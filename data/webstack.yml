@@ -14,14 +14,14 @@
     - title: ArtifactHub
       logo: ArtifactHub.png
       url: https://artifacthub.io
-      description: 个人 ICS-Hugo-Theme 博客。
+      description: 开发者的宝藏库，提供各种容器、图表和软件包，让你的项目生态系统更加强大。
     - title: V2EX
       logo: V2EX.png
       url: https://v2ex.com
       description: 程序员、技术爱好者的热门社区，汇集无尽的技术讨论与分享。
 
 - taxonomy: 自建服务
-  icon: fab fa-server
+  icon: fa fa-server
   list:
     - term: Home
       links:
