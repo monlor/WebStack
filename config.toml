@@ -44,4 +44,4 @@ publishDir            = "public"
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：<a href="mailto:me@monlor.com?subject=Monlor's WebStack 意见反馈" target="_blank">me@monlor.com</a>'
+    copyright = "If any content sourced from the internet violates your rights, please contact me via email: <a href=\"mailto:me@monlor.com?subject=Feedback on Monlor's WebStack\" target=\"_blank\">me@monlor.com</a>"
