@@ -32,13 +32,10 @@ jobs:
         #run: hugo --minify	# 使用 hugo 构建静态网页
         run: hugo         	# 使用 hugo 构建静态网页
 
-      - name: Deploy Pages              # 部署至当前仓库的其他分支
-        uses: peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action
+      - name: Deploy Pages            
+        uses: peaceiris/actions-gh-pages@v3	
+        if: github.ref == 'refs/heads/main'
         with:
-          external_repository: ${{ github.repository }}
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public	
-          publish_branch: pages	# 发布到哪个branch
-          force_orphan: true
-          full_commit_message: ${{ github.event.head_commit.message }}
           
