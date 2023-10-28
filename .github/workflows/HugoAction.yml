@@ -10,11 +10,7 @@ jobs:
   deploy: 
     runs-on: ubuntu-20.04	# 在什么环境运行任务
     permissions:
-      contents: read
-      packages: write
-      # This is used to complete the identity challenge
-      # with sigstore/fulcio when running outside of PRs.
-      id-token: write
+      contents: write
 
     steps:
       - uses: actions/checkout@v3   # 引用actions/checkout这个action，与所在的github仓库同名
@@ -33,7 +29,7 @@ jobs:
         run: hugo         	# 使用 hugo 构建静态网页
 
       - name: Deploy Pages            
-        uses: peaceiris/actions-gh-pages@v3	
+        uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
