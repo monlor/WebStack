@@ -42,12 +42,20 @@
           description: 记录生活点滴的私人图库，带你畅游照片回忆的海洋。
         - title: Plex
           logo: plex.png
-          url: https://plex.n.gz.mk:843
+          url: https://plex.n.gz.mk
           description: 娱乐内容的魔法播放器，把你的影音收藏变成自己的流媒体平台。
         - title: Emby
           logo: emby.png
-          url: https://emby.n.gz.mk:843
+          url: https://emby.n.gz.mk
           description: 打造你自己的媒体中心，让你的电影、音乐和电视系列随时随地随心所欲。
+        - title: Uptime
+          logo: uptime.png
+          url: https://up.n.gz.mk
+          description: 保障您网站的稳定运行，实时监测服务状态。
+        - title: Anylink
+          logo: anylink.png
+          url: https://vpn.n.gz.mk
+          description: 连接您与全球网络资源的桥梁，提供安全稳定的链接服务。
 
     - term: Cloud
       links:
