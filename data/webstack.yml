@@ -28,17 +28,17 @@
         - title: Synology Home
           logo: synology.png
           ignore: True
-          url: https://monlor.quickconnect.to
+          url: https://a.gz.mk
           description: 个人云存储和多媒体中心的首选，让您的数据安全、访问便捷。
         - title: Synology Drive
           logo: synologydrive.png
           ignore: true
-          url: https://monlor.quickconnect.to/drive
+          url: https://a.gz.mk/drive
           description: 打造你的私人云存储和文件同步的神奇工具，让你的数据随时随地都能轻松互通。
         - title: Synology Photos
           logo: synologyphotos.png
           ignore: true
-          url: https://monlor.quickconnect.to/photo
+          url: https://a.gz.mk/photo
           description: 记录生活点滴的私人图库，带你畅游照片回忆的海洋。
         - title: Plex
           logo: plex.png
