@@ -4,7 +4,7 @@
   icon: fas fa-medal
   links:
     - title: GitHub
-      logo: GitHub.png
+      logo: github.png
       url: https://github.com
       description: 程序员的创意乐园，代码世界的交汇之地。
     - title: DockerHub
@@ -111,7 +111,8 @@
           url: https://rss.monlor.com
           description: FreshRSS 订阅服务，RSS 阅读器。
         - title: ghproxy
-          logo: ghproxy.png
+          logo: github.png
+          ignore: True
           url: https://gh.monlor.com
           description: GitHub 文件下载加速，提高 GitHub 文件下载速度。
         - title: OpenAI API Proxy
