@@ -56,6 +56,11 @@
           logo: anylink.png
           url: https://vpn.n.gz.mk
           description: 连接您与全球网络资源的桥梁，提供安全稳定的链接服务。
+        - title: Apple DNS
+          logo: adguard.png
+          url: https://dns.gz.mk
+          description: 保护您的网络安全，提供广告拦截与隐私保护服务。
+          qrcode: https://cdn.monlor.com/2023/11/1/monlor-dns.jpeg
 
     - term: Cloud
       links:
